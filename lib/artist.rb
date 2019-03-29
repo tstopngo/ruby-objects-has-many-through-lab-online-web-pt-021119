@@ -7,6 +7,7 @@ class Artist
   def initialize(name)
     @name = name
     @@all << self
+    self.artist = artist if artist
   end
   
   def self.all 
